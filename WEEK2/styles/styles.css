@@ -40,8 +40,15 @@ h2 {
     text-align: center;
 }
 aside {
-    text-align: center; /* Centra todo el contenido dentro de aside */
+    width: 60%; 
+    margin: 20px auto; 
+    border: 1px solid gray;
+    padding: 15px;
+    background-color: #f4f4f4;
+    color: black;
+    text-align: center;
 }
+
 
 aside a {
     display: block; /* Hace que cada enlace ocupe toda la línea */
@@ -71,23 +78,22 @@ main img {
 
 /* Image inside aside */
 aside img {
-    width: 500px; /* Ajusta el tamaño para diferenciar */
+    width: 200px; 
     height: auto;
     border: 1px solid black;
     padding: 5px;
     box-shadow: 0 0 30px gray;
     display: block;
-    margin: 40px auto; /* Aumenta la separación */
+    margin: 40px auto;
 }
 
-
-/* Paragraphs */
 p {
-    padding: 10px;
-    text-align: justify; /* Justifies text */
-    width: 50%; /* Adjusts width to keep it centered */
-    margin: 0 auto; /* Centers the paragraph */
-    text-align: center; 
+    padding: 0;
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
 }
+
 
 
