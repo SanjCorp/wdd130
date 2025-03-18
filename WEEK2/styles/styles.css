@@ -1,0 +1,93 @@
+nav {
+    background-color: darkblue;
+    padding: 10px;
+    text-align: center; /* Centra los enlaces dentro del nav */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex; /* Activa flexbox */
+    flex-direction: column; /* Apila los enlaces uno sobre otro */
+    align-items: center; /* Centra los enlaces horizontalmente */
+}
+
+nav a {
+    color: rgb(254, 253, 255);
+    text-align: center;
+    display: block; /* Hace que los enlaces ocupen todo el ancho */
+    padding: 10px;
+    text-decoration: none; /* Quita el subrayado */
+}
+
+/* Main Content */
+main {
+    margin-top: 150px; /* Aumenta el espacio para que no lo tape el nav */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Headings */
+h1 {
+    color: aqua;
+    text-align: center;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+}
+aside {
+    text-align: center; /* Centra todo el contenido dentro de aside */
+}
+
+aside a {
+    display: block; /* Hace que cada enlace ocupe toda la línea */
+    text-align: center; /* Asegura que el texto dentro del enlace esté centrado */
+    padding: 25px;
+    color: blueviolet;
+    text-decoration: none; /* Quita el subrayado */
+}
+
+/* Lists */
+ul {
+    color: pink;
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* Image inside main */
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    display: block;
+    margin: 20px auto; /* Agrega más separación */
+}
+
+/* Image inside aside */
+aside img {
+    width: 500px; /* Ajusta el tamaño para diferenciar */
+    height: auto;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 0 0 30px gray;
+    display: block;
+    margin: 40px auto; /* Aumenta la separación */
+}
+
+
+/* Paragraphs */
+p {
+    padding: 10px;
+    text-align: justify; /* Justifies text */
+    width: 50%; /* Adjusts width to keep it centered */
+    margin: 0 auto; /* Centers the paragraph */
+    text-align: center; 
+}
+
+
