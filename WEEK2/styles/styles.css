@@ -46,6 +46,15 @@ main {
     align-items: center;
 }
 
+/* HEADINGS */
+h1 {
+    color: aqua;
+    text-align: center;
+}
+h2 {
+    color: blueviolet;
+    text-align: center;
+}
 
 
 /* ASIDE */
